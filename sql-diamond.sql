@@ -32,7 +32,7 @@ CREATE TABLE DIAMOND.EMPLOYEES(
 
 --Tabla 6: PAYMENT_TYPES
 CREATE TABLE DIAMOND.PAYMENT_TYPES (
-    id_payment_type VARCHAR(2),
+    id_payment_type VARCHAR(4),
     name VARCHAR(40),
     CONSTRAINT PK_PAYMENT_TYPES PRIMARY KEY (id_payment_type),
     CONSTRAINT NN_PAYMENT_TYPES_name CHECK (name IS NOT NULL)
@@ -40,7 +40,7 @@ CREATE TABLE DIAMOND.PAYMENT_TYPES (
 
 --Tabla 8: REGULARS
 CREATE TABLE DIAMOND.REGULARS(
-    id_regular VARCHAR(2),
+    id_regular VARCHAR(4),
     code VARCHAR(4),
     brand VARCHAR(20),
     CONSTRAINT PK_REGULARS PRIMARY KEY(id_regular),
@@ -114,8 +114,8 @@ CREATE TABLE DIAMOND.PRODUCTS (
     stock_min INTEGER,
     stock_max INTEGER,
     id_customer VARCHAR(4),
-    id_regular VARCHAR(2),
-    id_promotion VARCHAR(2),
+    id_regular VARCHAR(4),
+    id_promotion VARCHAR(4),
     CONSTRAINT PK_PRODUCTS PRIMARY KEY (id_product),
     CONSTRAINT NN_PRODUCTS_name CHECK (name IS NOT NULL),
     CONSTRAINT NN_PRODUCTS_current_price CHECK (current_price IS NOT NULL),

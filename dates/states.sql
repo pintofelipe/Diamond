@@ -1,3 +1,4 @@
+select * from diamond.states;
 INSERT INTO DIAMOND.STATES (id_state, name, id_city) VALUES
 ('S00', 'Antioquia Central', 'A01'), -- Medellín
 ('S01', 'Antioquia Suroeste', 'A07'), -- Andes
