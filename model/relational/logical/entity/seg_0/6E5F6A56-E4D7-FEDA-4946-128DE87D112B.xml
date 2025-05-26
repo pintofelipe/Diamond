@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E5F6A56-E4D7-FEDA-4946-128DE87D112B" name="DETAILS ENVOICE SUPPLIER">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 21:38:28 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Line Item Id" id="67B71F0A-2997-25D8-7124-2CE859C700BF">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 21:38:28 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantity" id="65AC9CB9-CCBC-6BBA-E73E-D3F5B5A33A78">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 21:38:28 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unit price" id="B05BFB84-AA9C-C662-EC3C-D2510562FF3F">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 21:38:28 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number Of Items " id="BFCD8075-8B30-090B-249A-6F76AA00B913">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 21:38:28 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Discount" id="4B7F5335-122D-2BCF-97A4-361D7C0D1EC6">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 21:38:28 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Subtotal" id="13F023A2-1DBC-E8C0-AF10-57BB91529A15">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 22:00:08 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id envoice supplier" id="FD5AEA5B-8681-C2CA-0AD3-1D49995C280A">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 22:02:07 UTC</createdTime>
+<generatorID>794CD3AA-228F-FFC3-9A68-8C2C00265F60</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<referedAttribute>DE010D4B-6E3D-C05B-9999-CDCB1CBABD65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Product" id="19244771-FB6C-86E0-A704-39352470D014">
+<createdBy>andre</createdBy>
+<createdTime>2025-04-08 16:57:11 UTC</createdTime>
+<generatorID>FC9294FD-AAB7-8FBC-50D7-75F5D9FFFD3D</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<referedAttribute>46738953-7162-E058-7E5D-F15C17C92888</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B387B9F9-9252-F8ED-975F-448FFE3F4133" name="DETAILS ENVOICE PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 21:38:28 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67B71F0A-2997-25D8-7124-2CE859C700BF</attributeRef>
+<attributeRef>FD5AEA5B-8681-C2CA-0AD3-1D49995C280A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

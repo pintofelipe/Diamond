@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="101EBC04-E057-790A-6F65-9A49EB7283E8" name="ASSISTANT">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 21:05:54 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>35A1E905-F235-3E5D-5C5A-837783894570</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Assistant" id="3AE132BD-0E62-8D6B-B562-F06A35CE7601">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 21:07:04 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD827571-B58D-3587-7FB6-94885FB55964" name="ASSISTANT PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 21:07:14 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3AE132BD-0E62-8D6B-B562-F06A35CE7601</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

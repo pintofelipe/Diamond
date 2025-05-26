@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD51DB88-CFCD-26B2-AAC2-81F8BF28A430" name="SHIPPING">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 22:03:23 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Shipping" id="06921936-4535-4169-AA85-53AC9938F2DA">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 22:03:34 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="F43DD134-0B72-B72C-DCF7-ACD357AF3E61">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 22:03:41 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Delivery Adress" id="855871AA-F4B2-AFF6-DD2B-372E06E7C58F">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 22:03:48 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Shipping Cost" id="F10E87CE-9E2F-252A-997E-B098DB34FD52">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 22:04:12 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="D1314DCE-51B6-21FB-06A7-ABE5258E85E5">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 22:04:56 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id State" id="F845D79B-491B-691E-F565-F088A5B2DB63">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 22:15:56 UTC</createdTime>
+<generatorID>1429D6FD-7820-84D7-63DA-238A92B2C45B</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<referedAttribute>3CE67E18-414C-2EF2-FFC1-CA49FA99EC79</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id City" id="237CFFA5-388D-39E4-E566-3FC35AD61584">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 22:15:56 UTC</createdTime>
+<generatorID>1429D6FD-7820-84D7-63DA-238A92B2C45B</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="false"/>
+</engineerTo>
+<referedAttribute>A7DE741A-4006-94E5-5D80-EEC46D6C381C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Envoice Sale" id="C0F4948F-C94E-A6B7-4E26-B186740F762B">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 02:24:24 UTC</createdTime>
+<generatorID>8C1A8DE5-4061-447B-E6B5-A72A1392F122</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="true"/>
+</engineerTo>
+<referedAttribute>A6F241AA-B1D2-F0B1-4913-E59DBEFBBD08</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73633A92-5580-2469-1C36-A50FDA55C538" name="SHIPPING PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-09 22:03:38 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B581E830-6F8F-4334-0E6D-7FB6FB1E6551" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0F4948F-C94E-A6B7-4E26-B186740F762B</attributeRef>
+<attributeRef>06921936-4535-4169-AA85-53AC9938F2DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5988F569-CA5A-986E-FF2B-E3B08731971C" name="STATES">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>D3B7E364-25E5-C5BA-0F70-362A39CB6070</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<ordsAlias>city</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_state" id="F98BF14C-A1CF-87C6-0E20-E7B4005B0D1B">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>3CE67E18-414C-2EF2-FFC1-CA49FA99EC79</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="7EFDCAE5-260B-C407-E075-D5BCE66FCD86">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>20B8B693-374F-0A37-8A77-9979689D2D88</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_city" id="A778D5FE-618E-BE8B-8D58-B998317BE532">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>A7DE741A-4006-94E5-5D80-EEC46D6C381C</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20BE64B8-EDB1-D183-E4C3-71442D9B18BF" referredColumn="22CD0D87-F99B-104F-624D-96DDEC6BC12F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="040E6F1B-9B5F-F42C-9A7A-347C03ACF373" name="CITY_PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>131FE72E-AB04-520D-24F6-D28F558BE314</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F98BF14C-A1CF-87C6-0E20-E7B4005B0D1B"/>
+<colUsage columnID="A778D5FE-618E-BE8B-8D58-B998317BE532"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF42A538-51D1-3688-343D-9AF6C6FED25F" name="CITY_STATE_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>3C2524CD-4300-D333-6CDF-F98A8044AE5D</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A778D5FE-618E-BE8B-8D58-B998317BE532"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

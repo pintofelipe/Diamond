@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C251FDB3-9ED9-04C2-18C0-A7A1106561FE" name="ENVOICE_SALES">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>741C5CD1-3B54-071D-B445-756464DCC586</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<ordsAlias>envoice_sale</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_envoice_sale" id="F6C0EB3B-E252-8AD2-F81D-F6EECEC2CED0">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>A6F241AA-B1D2-F0B1-4913-E59DBEFBBD08</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="CD73CF03-A27A-E482-B01E-D92F5C69A0EA">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>E2A16AC5-1B1A-7A3D-B001-9D7544F10AC9</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="details_envoice" id="5621ACC9-F97C-5C88-2890-16FD0041216A">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>E81E69B5-9120-3F4C-C0A4-2C598B38FBD6</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="C994FAD6-4155-C463-6546-52038D884F5D">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>7AD64BEA-5B35-E901-7D17-E12C2F08B56D</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_payment_type" id="D6AF8BCD-CF1D-92FC-2BBA-482D77C40701">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>C21A0F5C-FB0C-89E2-3918-5480448FCED8</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C16E9A8-013C-D64B-37E8-EEF684F31BE1" referredColumn="57D04E48-F991-4B08-0273-E913BA4203FB"/>
+</associations>
+</Column>
+<Column name="id_customer" id="D62A87D1-3DAE-3221-9573-9CBCB9FA6605">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>27DD6579-4842-59C8-99BE-888DCF903EC1</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F5496FA-F166-E9B6-E3D6-46393FF94FB8" referredColumn="B97AE8F7-55FA-33C8-0821-8FB79C02B920"/>
+</associations>
+</Column>
+<Column name="id_line_item" id="DCB307FA-FC54-BC36-113A-846CDAC582A3">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>07BE3B79-CEDD-528C-B68C-1587CAAC1894</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1944D5D8-AE32-6E1D-737E-FC4B7E3BAEA2" referredColumn="DC18EE73-1AC4-84F6-32ED-E1113D92C3F0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3417B291-FAA0-0460-8CFD-683C2D665DD4" name="ENVOICE_SALE_PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>1BE46644-0CE1-1146-E51A-8C8C747349B1</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6C0EB3B-E252-8AD2-F81D-F6EECEC2CED0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C7D8D1C-1408-8493-E8D3-4BA4549F87BB" name="ENVOICE_SALE_PAYMENT_TYPE_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>14DD515E-60E9-FDE6-22AC-378EC6ECAC8C</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6AF8BCD-CF1D-92FC-2BBA-482D77C40701"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F9528BA-7D0E-DACA-C4A4-DB2E57B481CB" name="ENVOICE_SALE_CUSTOMER_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>33D02DE3-CBEB-AA83-B5DE-4191FA2CAE7F</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D62A87D1-3DAE-3221-9573-9CBCB9FA6605"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6EA3847-33D2-EF22-3B2F-28E086BA2739" name="ENVOICE_SALE_EMPLOYEE_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>22AE4FFB-9C28-2166-A94A-158FFBF6542A</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCB307FA-FC54-BC36-113A-846CDAC582A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

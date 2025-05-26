@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="268C1D32-77EB-84F3-2F8C-833333DCEFAC" name="DETAILS_ENVOICE_SUPPLIERS">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>6E5F6A56-E4D7-FEDA-4946-128DE87D112B</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<ordsAlias>details_envoice_supplier</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_line_item" id="16A73138-8FDD-190D-3113-BF0475189F70">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>67B71F0A-2997-25D8-7124-2CE859C700BF</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="5AF4FB8F-477F-BF32-A5EF-A3AE035845A1">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>65AC9CB9-CCBC-6BBA-E73E-D3F5B5A33A78</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unit_price" id="4020CD36-635C-5485-A8B5-6097F64F65D8">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>B05BFB84-AA9C-C662-EC3C-D2510562FF3F</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="discount" id="60F65C28-1508-F1CF-F948-DE43918E1508">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>BFCD8075-8B30-090B-249A-6F76AA00B913</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="93A98530-1C06-50E1-3A67-532159F88520">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>13F023A2-1DBC-E8C0-AF10-57BB91529A15</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_envoice_supplier" id="18AF3188-40E1-302A-74B8-5ABD5CCF5C98">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>FD5AEA5B-8681-C2CA-0AD3-1D49995C280A</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF1558FA-EE11-2168-5F20-58AC2D8CF4F5" referredColumn="9BA0A513-5049-6E59-9C0F-E810ABC6A1E6"/>
+</associations>
+</Column>
+<Column name="id_product" id="0E349A40-4950-6753-4B1A-8358AFF882B0">
+<createdBy>andre</createdBy>
+<createdTime>2025-04-08 17:03:34 UTC</createdTime>
+<generatorID>19244771-FB6C-86E0-A704-39352470D014</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7CCB037-7390-4454-8F10-1F0473B12FB8" referredColumn="2E4FEB99-1878-3BC3-EA74-DBD396093509"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="355425A1-3202-BE4F-9DBC-AE6F2BCED8FF" name="DETAILS_ENVOICE_SUPPLIER_PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>B387B9F9-9252-F8ED-975F-448FFE3F4133</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16A73138-8FDD-190D-3113-BF0475189F70"/>
+<colUsage columnID="18AF3188-40E1-302A-74B8-5ABD5CCF5C98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F68D50D-6EDF-3930-A692-299E546ADD54" name="DETAILS_ENVOICE_SUPPLIER_ENVOICE_SUPPLIER_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>794CD3AA-228F-FFC3-9A68-8C2C00265F60</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18AF3188-40E1-302A-74B8-5ABD5CCF5C98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED169FCC-545D-AFA3-0B29-2554113F825E" name="DETAILS_ENVOICE_SUPPLIER_PRODUCT_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-04-08 17:03:34 UTC</createdTime>
+<generatorID>FC9294FD-AAB7-8FBC-50D7-75F5D9FFFD3D</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E349A40-4950-6753-4B1A-8358AFF882B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

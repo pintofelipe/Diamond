@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48FCDF6C-8230-3FD6-4A78-FD5ADE516E16" name="DETAILS_ENVOICE_SALES">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>D556AABC-DCD0-A6D3-DD74-0EA672D7F6CD</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<ordsAlias>details_envoice_sale</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_line_item" id="DECBD872-6C61-AC7B-F7D2-F3119999DC9D">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>B0870140-B6E2-8DF1-5693-536A9A8EDD07</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="BF5CC0CF-1F94-FA92-03FF-7EAFB8880F9F">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>EA86CE13-BCE2-201A-048F-B3ECDDB5C273</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unit_price" id="E26C07EF-FAD2-AA09-51D8-CB8BBF9E2865">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>B7400B2F-8CB8-A8DA-65F8-A1FD62175608</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number_of_items" id="14C5E482-0590-7F8E-CD88-231629FCC85B">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>B1735DDA-922B-4B87-160B-BA333C8C0A3C</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="discount" id="CDF0B7D4-5D80-7808-3838-E8C7FA605766">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>CE0BF5DB-DA86-2E54-2328-C9BB4FD5A0CD</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="54B28526-2E58-2EE5-6A48-A32F83F705FE">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>4A630BB5-9FE8-537C-E751-ACA45DD1448C</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_envoice_sale" id="359B3A18-F4F5-ED75-9D04-A2C82543C3A8">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>1B1C45F9-6AC2-90F4-6949-088A11AEE8B6</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F50795A6-2E78-1E98-2EB8-28BCBF4F771B" referredColumn="F6C0EB3B-E252-8AD2-F81D-F6EECEC2CED0"/>
+</associations>
+</Column>
+<Column name="id_product" id="C1EB558D-D25E-143A-0B4D-91B6DED210BE">
+<createdBy>andre</createdBy>
+<createdTime>2025-04-09 12:36:01 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34965339-96D0-BA43-E13C-9FB601174272" referredColumn="2E4FEB99-1878-3BC3-EA74-DBD396093509"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8393CCDD-C002-53DD-CF6B-35679DAFD4DE" name="DETAILS_ENVOICE_SALE_PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>A14A48F2-9982-38C1-1215-3CE45C9A4081</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DECBD872-6C61-AC7B-F7D2-F3119999DC9D"/>
+<colUsage columnID="359B3A18-F4F5-ED75-9D04-A2C82543C3A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="482E6E55-2B54-6E0F-EC76-95700266124C" name="DETAILS_ENVOICE_SALE_ENVOICE_SALE_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-03-31 00:46:56 UTC</createdTime>
+<generatorID>24EB3CA2-23DD-30A7-A61B-3A688F66FC3A</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="359B3A18-F4F5-ED75-9D04-A2C82543C3A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6C0F989-6E46-B1DB-FF37-69DBEE79AC1C" name="DETAILS_ENVOICE_SALE_PRODUCT_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-04-09 12:36:01 UTC</createdTime>
+<generatorID>9FB29FF7-35C8-4F10-B9D3-62FC8E107F13</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1EB558D-D25E-143A-0B4D-91B6DED210BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
